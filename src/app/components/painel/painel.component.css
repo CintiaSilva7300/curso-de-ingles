@@ -1,0 +1,15 @@
+.jumbotron {
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+#textarea {
+  /* width: 80%; */
+}
+
+.btn {
+  margin-top: 10px;
+  background: #1cb0f6;
+}
