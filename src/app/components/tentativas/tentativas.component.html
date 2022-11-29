@@ -1,3 +1,5 @@
+<!-- <img [src]="coracaoVazio" height="40px">
 <img [src]="coracaoVazio" height="40px">
-<img [src]="coracaoVazio" height="40px">
-<img [src]="coracaoVazio" height="40px">
+<img [src]="coracaoVazio" height="40px"> -->
+
+<img *ngFor="let coracao of coracoes" [src]="coracao.exiteCoracao()">
