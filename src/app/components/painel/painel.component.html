@@ -17,7 +17,8 @@
         <!-- <p>{{ resposta }}</p> -->
 
         <div class="form-group">
-          <textarea id="textarea" class="form-control" rows="3" (input)="atualizaResposta($event)"></textarea>
+          <textarea id="textarea" class="form-control" rows="3" (input)="atualizaResposta($event)"
+            [value]="resposta"></textarea>
         </div>
       </div>
     </div>
